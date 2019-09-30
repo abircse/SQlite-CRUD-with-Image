@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextfoodname"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Food Name" />
+
+    <EditText
+        android:id="@+id/editTextfoodprice"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Price (Per pics)" />
+
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewfood"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/placeholde" />
+
+        <Button
+            android:id="@+id/buttonchooseimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:layout_marginLeft="10dp"
+            android:text="Choose Image" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonsavefood"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="SAVE FOOD" />
+
+    <Button
+        android:id="@+id/buttonviewfood"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="VIEW FOOD" />
+
+</LinearLayout>
