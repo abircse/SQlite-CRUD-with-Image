@@ -67,7 +67,6 @@ public class FoodListActivity extends AppCompatActivity {
         // check data exist or not in list
         if (foodList.size() == 0)
         {
-            Toast.makeText(FoodListActivity.this, "No data Found", Toast.LENGTH_SHORT).show();
             nodatatext.setVisibility(View.VISIBLE);
         }
 
